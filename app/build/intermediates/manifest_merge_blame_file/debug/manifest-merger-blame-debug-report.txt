@@ -1,0 +1,100 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.summit"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\Public\Documents\SpeechToTextUsingGoogleCloudAPI\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\Public\Documents\SpeechToTextUsingGoogleCloudAPI\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Public\Documents\SpeechToTextUsingGoogleCloudAPI\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Public\Documents\SpeechToTextUsingGoogleCloudAPI\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+12-->C:\Users\Public\Documents\SpeechToTextUsingGoogleCloudAPI\app\src\main\AndroidManifest.xml:6:5-75
+12-->C:\Users\Public\Documents\SpeechToTextUsingGoogleCloudAPI\app\src\main\AndroidManifest.xml:6:22-72
+13    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+13-->C:\Users\Public\Documents\SpeechToTextUsingGoogleCloudAPI\app\src\main\AndroidManifest.xml:7:5-71
+13-->C:\Users\Public\Documents\SpeechToTextUsingGoogleCloudAPI\app\src\main\AndroidManifest.xml:7:22-68
+14    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+14-->C:\Users\Public\Documents\SpeechToTextUsingGoogleCloudAPI\app\src\main\AndroidManifest.xml:8:5-80
+14-->C:\Users\Public\Documents\SpeechToTextUsingGoogleCloudAPI\app\src\main\AndroidManifest.xml:8:22-77
+15
+16    <permission
+16-->[androidx.core:core:1.9.0] C:\Users\User\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+17        android:name="com.example.summit.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.9.0] C:\Users\User\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.9.0] C:\Users\User\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.example.summit.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.9.0] C:\Users\User\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.9.0] C:\Users\User\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->C:\Users\Public\Documents\SpeechToTextUsingGoogleCloudAPI\app\src\main\AndroidManifest.xml:10:5-29:19
+23        android:allowBackup="true"
+23-->C:\Users\Public\Documents\SpeechToTextUsingGoogleCloudAPI\app\src\main\AndroidManifest.xml:11:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.9.0] C:\Users\User\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+25        android:dataExtractionRules="@xml/data_extraction_rules"
+25-->C:\Users\Public\Documents\SpeechToTextUsingGoogleCloudAPI\app\src\main\AndroidManifest.xml:12:9-65
+26        android:debuggable="true"
+27        android:extractNativeLibs="false"
+28        android:fullBackupContent="@xml/backup_rules"
+28-->C:\Users\Public\Documents\SpeechToTextUsingGoogleCloudAPI\app\src\main\AndroidManifest.xml:13:9-54
+29        android:icon="@mipmap/ic_launcher"
+29-->C:\Users\Public\Documents\SpeechToTextUsingGoogleCloudAPI\app\src\main\AndroidManifest.xml:14:9-43
+30        android:label="@string/app_name"
+30-->C:\Users\Public\Documents\SpeechToTextUsingGoogleCloudAPI\app\src\main\AndroidManifest.xml:15:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->C:\Users\Public\Documents\SpeechToTextUsingGoogleCloudAPI\app\src\main\AndroidManifest.xml:16:9-54
+32        android:supportsRtl="true"
+32-->C:\Users\Public\Documents\SpeechToTextUsingGoogleCloudAPI\app\src\main\AndroidManifest.xml:17:9-35
+33        android:theme="@style/Theme.SummIT" >
+33-->C:\Users\Public\Documents\SpeechToTextUsingGoogleCloudAPI\app\src\main\AndroidManifest.xml:18:9-44
+34        <activity
+34-->C:\Users\Public\Documents\SpeechToTextUsingGoogleCloudAPI\app\src\main\AndroidManifest.xml:20:9-28:20
+35            android:name="com.example.summit.MainActivity"
+35-->C:\Users\Public\Documents\SpeechToTextUsingGoogleCloudAPI\app\src\main\AndroidManifest.xml:21:13-41
+36            android:exported="true" >
+36-->C:\Users\Public\Documents\SpeechToTextUsingGoogleCloudAPI\app\src\main\AndroidManifest.xml:22:13-36
+37            <intent-filter>
+37-->C:\Users\Public\Documents\SpeechToTextUsingGoogleCloudAPI\app\src\main\AndroidManifest.xml:23:13-27:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\Public\Documents\SpeechToTextUsingGoogleCloudAPI\app\src\main\AndroidManifest.xml:24:17-69
+38-->C:\Users\Public\Documents\SpeechToTextUsingGoogleCloudAPI\app\src\main\AndroidManifest.xml:24:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\Public\Documents\SpeechToTextUsingGoogleCloudAPI\app\src\main\AndroidManifest.xml:26:17-77
+40-->C:\Users\Public\Documents\SpeechToTextUsingGoogleCloudAPI\app\src\main\AndroidManifest.xml:26:27-74
+41            </intent-filter>
+42        </activity>
+43
+44        <provider
+44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+45            android:name="androidx.startup.InitializationProvider"
+45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+46            android:authorities="com.example.summit.androidx-startup"
+46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+47            android:exported="false" >
+47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+48            <meta-data
+48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+49                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+50                android:value="androidx.startup" />
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+51            <meta-data
+51-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\User\.gradle\caches\transforms-3\75d35fda4271de3dc184847093d1a2b0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+52                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+52-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\User\.gradle\caches\transforms-3\75d35fda4271de3dc184847093d1a2b0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+53                android:value="androidx.startup" />
+53-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\User\.gradle\caches\transforms-3\75d35fda4271de3dc184847093d1a2b0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+54        </provider>
+55    </application>
+56
+57</manifest>

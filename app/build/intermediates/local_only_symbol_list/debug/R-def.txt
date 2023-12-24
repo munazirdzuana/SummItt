@@ -1,0 +1,29 @@
+R_DEF: Internal format may change without notice
+local
+color base_app_bg
+color black
+color green
+color plazabase_color
+color result_points
+color viewfinder_laser
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable img
+drawable mic
+id imageView2
+id progress_bar
+id result_text_view
+id scrollView
+id start_button
+id summ
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+raw credentials
+raw transcribe_voice
+string app_name
+style Base.Theme.SummIT
+style Theme.SummIT
+xml backup_rules
+xml data_extraction_rules

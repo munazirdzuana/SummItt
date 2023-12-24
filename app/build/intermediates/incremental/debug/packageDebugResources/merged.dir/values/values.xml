@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="base_app_bg">#ccdbee</color>
+    <color name="black">#FF000000</color>
+    <color name="green">#FF0BC957</color>
+    <color name="plazabase_color">#FC5A1B</color>
+    <color name="result_points">#c099cc00</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">SummIt</string>
+    <style name="Base.Theme.SummIT" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.SummIT" parent="Base.Theme.SummIT"/>
+</resources>
