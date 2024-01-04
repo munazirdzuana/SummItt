@@ -32,27 +32,21 @@ Pada tahap ini kita mengeksplorasi branding dari produk UbiCom yang dibuat. Cont
 - Mobile software development
 - Cloud server
 - Model ai summarize : hugging face model thonyyy/pegasus_indonesian_base-finetune
-- flutter_deep_speech plugin Flutter untuk pengenalan suara dan transkripsi menggunakan DeepSpeech. Ini adalah plugin yang dapat digunakan untuk mentranskripsikan audio dari berbagai sumber, termasuk mikrofon, file, dan audio streaming.
-- flutter_tts plugin Flutter yang menyediakan fungsi Text-to-Speech (TTS) untuk mengonversi teks menjadi suara. Plugin ini menawarkan berbagai opsi konfigurasi, termasuk pengaturan kecepatan pembacaan, 
-
-## Struktur Data
-![erd](https://github.com/munazirdzuana/SummIt/assets/78277922/5c9337b6-5b3f-4c43-ae20-7766f555d8a4)
 
 ## Arsitektur Sistem
-![whehe (6)](https://github.com/munazirdzuana/SummIt/assets/78277922/0f2b66fd-d5e7-4054-85a7-7e345c729fac)
+![12 drawio](https://github.com/munazirdzuana/SummItt/assets/78277922/38dcc060-37c2-4262-ac9e-c9ef8ebb12e0)
 
 ## Deskripsi Teknologi
 - Mesin komputasi
   - Cloud server: AWS EC2 layanan komputasi awan yang diberikan oleh Amazon Web Services (AWS), memberikan kapasitas komputasi virtual yang dapat diubah-ubah seiring kebutuhan
-  - Smart phone: Android dan IOS
+  - Smart phone: Android 
 - Software development
-  - Mobile development: Flutter  Dikembangkan oleh Google, Flutter menggunakan bahasa pemrograman Dart dan menawarkan pendekatan "write once, run anywhere," yang memungkinkan pengembang untuk membuat kode sumber tunggal yang kaya fitur dan responsif dengan desain yang konsisten di berbagai platform seperti iOS, Android, dan web
-  - Backend developer: FastAPI framework web Python yang dirancang untuk memungkinkan pengembangan API (Application Programming Interface) dengan cepat, efisien, dan mudah dipahami. 
+  - Mobile development: Native Android=
 - Sensor
   - MIC Smartphone 
 - Responder
   - Speaker Smartphone
   volume, dan bahasa suara.
 ## User Experience (UX) Design
-![Screenshot 2023-10-30 090544](https://github.com/munazirdzuana/SummIt/assets/78277922/e38aaa3f-24f7-4b66-b08b-9f4dea48d720)
+![WhatsApp Image 2023-12-19 at 20 13 34_30e6b503](https://github.com/munazirdzuana/SummItt/assets/78277922/4c37ca1f-7c5e-4d7f-8a09-acdea22a0383)
 
